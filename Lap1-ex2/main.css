@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("image/backgroudd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    height: 100px;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav {
+
+    display: flex;
+    align-items: center;
+}
+
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li a {
+    font-size: 18px;
+    line-height: 100px;
+    color: #000;
+    text-decoration: none;
+    padding: 0px 30px;
+}
+
+.nav li a button {
+    font-size: 18px;
+    width: 90px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    border: hidden;
+}
+
+.content {
+    display: flex;
+}
+
+.about h1 {
+    color: white;
+}
+
+.about {
+    padding: 100px;
+    font-size: 35px;
+    flex: 1.5;
+}
+
+.about p {
+    font-size: 27px;
+}
+
+.content .about .logo p {
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.content .about .logo button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 20px;
+    background-color: #000;
+    border-radius: 10px;
+    border: hidden;
+    width: 230px;
+    height: 70px;
+}
+
+.about .logo button>i {
+    font-size: 30px;
+}
+
+.content .about .logo {
+    padding-right: 20px;
+    display: inline-block;
+}
+
+.smartphone {
+    flex: 1;
+}
